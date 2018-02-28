@@ -20,7 +20,9 @@ public class createRandomInts {
             }
             writer.close();
 
-        } catch (Exception e) {
+        }
+        //Catch the error if it occurs.
+        catch (Exception e) {
             System.out.println("File not found");
         }
 
